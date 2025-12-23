@@ -439,6 +439,8 @@ input=scaler.transform(input)
 prediction = model.predict(input)
 prediction
 
+
+
 input=[[26,0,0.6,0.2,120,45,51,7.9,.4,1]]
 input=scaler.transform(input)
 prediction = RFmodel.predict(input)
